@@ -1,0 +1,16 @@
+// to run css build cli 'sass --no-source-map _sass/sass-styles.scss:src/assets/styles.css' after making any edits in sass-styles.scss
+
+// Set any variables and customisation below before the import. Can also import any google fonts here.
+
+/* If not using many features import more selectively as follows...
+
+@import '../_bulma/sass/utilities/_all.sass';
+@import '../_bulma/sass/elements/button.sass';
+@import '../_bulma/sass/form/_all.sass';
+@import '../_bulma/sass/components/navbar.sass';
+@import '../_bulma/sass/layout/hero.sass';
+
+*/
+
+@charset "utf-8";
+@import '../node_modules/bulma/bulma.sass';

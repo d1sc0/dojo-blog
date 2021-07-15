@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the new blog",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tags": [
+        "webdev",
+        "coding",
+        "news"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Top 5 CSS tips",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tags": [
+        "css",
+        "webdev",
+        "coding"
+      ]
+    },
+    {
+      "title": "Bacon makes me horny",
+      "body": "Bacon ipsum dolor amet bresaola hamburger leberkas prosciutto, capicola jowl beef ribs pork short ribs filet mignon pastrami buffalo ball tip swine pancetta. Short loin kielbasa ham hock strip steak boudin short ribs tenderloin fatback ham ball tip ribeye. Shank bresaola bacon salami short loin.",
+      "tags": [
+        "bacon",
+        "meat",
+        "yummy"
+      ],
+      "id": 3
+    },
+    {
+      "title": "Yeah new Routing",
+      "body": "I love to route route baby. I love to route route baby. I love to route route baby. I love to route route baby. I love to route route baby.",
+      "tags": [
+        "router"
+      ],
+      "id": 4
+    },
+    {
+      "title": "Test",
+      "body": "This is a new post!",
+      "tags": [
+        "test",
+        "dog"
+      ],
+      "id": 5
+    }
+  ]
+}
