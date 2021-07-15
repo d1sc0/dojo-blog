@@ -1,4 +1,5 @@
 import { ref } from 'vue'
+import { db } from '../firebase/config'
 
 const getPost = (id) => {
 
@@ -13,11 +14,18 @@ const getPost = (id) => {
     })
 
     try {
-      let data = await fetch('http://localhost:3000/posts/' + id)
+      let res = await db.collection('posts').doc(id).get()
+      
+      if (!res.exists){
+        throw Error('That post does not exist')
+      }
+      post.value = { ...res.data(), id: res.id }
+
+     /*  let data = await fetch('http://localhost:3000/posts/' + id)
       if(!data.ok) {
         throw Error('unable to retrieve post')
       }
-      post.value = await data.json()
+      post.value = await data.json() */
     }
     catch(err) {
       error.value = err.message
