@@ -46,6 +46,19 @@
         "dog"
       ],
       "id": 5
+    },
+    {
+      "title": "Another brick in the wall",
+      "body": "Yes this is a story alabout how my life got flipped up",
+      "tags": [
+        "test",
+        "one",
+        "two",
+        "three",
+        "oding",
+        "coding"
+      ],
+      "id": 6
     }
   ]
 }

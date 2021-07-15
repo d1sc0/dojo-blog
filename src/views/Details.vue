@@ -1,13 +1,11 @@
 <template>
-  <section class="home mt-4">
-    <div class="container">
+  <section class="details container is-fluid">
       <div v-if="error">{{ error }}</div>
         <div v-if="post" class="post">
-          <h1 class="is-size-3 has-text-weight-semibold">{{ post.title }}</h1>
+          <h1 class="is-size-3 has-text-weight-semibold mt-4">{{ post.title }}</h1>
           <p class="content">{{ post.body }}</p>
         </div>
       <div v-else><Spinner /></div>
-    </div>
   </section>
 </template>
 

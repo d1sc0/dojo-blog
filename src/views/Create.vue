@@ -1,6 +1,6 @@
 <template>
-  <section class="create mt-4">
-    <div class="container">
+  <section class="create container is-fluid">
+    <h1 class="is-size-6 has-text-weight-semibold mt-4 mb-4">Create New Post</h1>
     <form @submit.prevent="handleSubmit">
      <div class="field">
       <label class="label">Title:</label>
@@ -30,7 +30,6 @@
       <button class="button">Add Post</button>
       </div>
     </form>
-  </div>
   </section>
 </template>
 

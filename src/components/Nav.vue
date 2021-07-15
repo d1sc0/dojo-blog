@@ -1,10 +1,18 @@
 <template>
-  <nav id="nav">
-   <div class="container mt-3">
-      <router-link :to="{ name: 'Home' }" class="is-size-5 has-text-weight-semibold">Home</router-link> | 
-      <router-link :to="{ name: 'Create' }" class="is-size-5 has-text-weight-semibold">Create</router-link> 
+<nav class="navbar is-primary p-4" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <h1><router-link :to="{ name: 'Home' }" class="title is-2 navbar-item">DojoBlog</router-link></h1> 
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start"
+    ></div>
+      <div class="navbar-end">
+        <router-link :to="{ name: 'Home' }" class="navbar-item">Home</router-link>
+        <router-link :to="{ name: 'Create' }" class="navbar-item">Create</router-link>
+      </div>
     </div>
 </nav>
+
 </template>
 
 <script>

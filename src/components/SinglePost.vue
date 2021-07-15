@@ -6,7 +6,7 @@
     <div class="post-body content my-3">{{ snippet }}</div>
     <div class="post-tags">
     <span v-for="tag in post.tags" :key="tag">
-      <div class="tag is-primary mx-2">#{{ tag }}</div>
+      <div class="tag is-secondary mx-2">#{{ tag }}</div>
     </span>
     </div>
   </div>
