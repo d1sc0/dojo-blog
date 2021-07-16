@@ -9,6 +9,7 @@
       <div class="navbar-end">
         <router-link :to="{ name: 'Home' }" class="navbar-item">Home</router-link>
         <router-link :to="{ name: 'Create' }" class="navbar-item">Create</router-link>
+        <router-link :to="{ name: 'RealTime' }" class="navbar-item">Realtime</router-link>
       </div>
     </div>
 </nav>
